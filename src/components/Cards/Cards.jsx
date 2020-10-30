@@ -9,7 +9,6 @@ const Cards = ({data : { confirmed, deaths, recovered, lastUpdate }}) => {
         return 'Loading...';
     }
 
-    console.log(`confirmed : ${JSON.stringify(confirmed)}`);
     return (
         <div className={styles.container}>
             <Grid container spacing={3} justify="center">
